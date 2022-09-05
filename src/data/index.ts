@@ -1,0 +1,1 @@
+export const buttons:string[] = new Array<string>("Clear", "Delete", "%", "/", "7", "8", "9", "x", "4", "5", "6", "-","1", "2", "3","+","0", ".", "=");

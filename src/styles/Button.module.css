@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.button{
+    width: 22%;
+    height: 50px;
+    margin: 7px 0;
+    border: 0;
+    background: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: rgb(137, 137, 137);
+}
+
+.button:focus{
+    background: rgb(240, 235, 235);
+}
+
+.wider{
+    width: 48%;
+    background-color: rgb(242, 128, 63);
+    color: #fff;
+}
+
+.wider:focus{
+    background-color: rgb(242, 166, 122);
+}
+
+@media only screen and (max-width: 400px) {
+    .button{
+        font-size: 14px;
+    }
+}
